@@ -40,6 +40,11 @@
   .c-3{
     color: #8700FF;
   }
+  marquee{
+    border: 2px solid black;
+    background-color: #111111;
+    color: white;
+  }
 
   /* header styles */
   header{
@@ -180,6 +185,9 @@ text-align: center;
   border-radius: 50%;
   background-color: orange;
   padding: 8px;
+}
+.arrow :hover{
+  background-color: black;
 }
 
 .card-1{
