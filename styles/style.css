@@ -113,6 +113,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+    
+    
  }
  .banner-title{
     font-size: 3.5rem;
@@ -162,7 +164,7 @@ box-shadow: 0px 0px 28.3 0.94px rgba(0, 0, 0, 0.05);
 text-align: center;
 }
 .arrow{
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 100;
   text-align: center;
   color: white;
@@ -172,10 +174,12 @@ text-align: center;
 .arrow-left{
   border-radius: 50%;
   background-color: orange;
+  padding: 8px;
 }
 .arrow-right{
   border-radius: 50%;
   background-color: orange;
+  padding: 8px;
 }
 
 .card-1{
@@ -210,6 +214,139 @@ text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
+/* stories related styles */
+.stories{
+  background: url('../assets/bg.png'),
+  linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.img-container{
+  display: flex;
+  gap: 19px;
+  max-width: 1160px;
+  max-height: 630px;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-bottom: 80px;
+}
+.img-box{
+  width: 50%;
+}
+.grid{
+  display: grid;
+  gap: 19px;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.stories-title{
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.card-box{
+  border-radius: 16px;
+  background-color: white;
+}
+.card-box > img{
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.view-btn>button{
+padding: 10px;
+color: white;
+background-color: black;
+border-radius: 12px;
+width: 197px;
+display: block;
+margin: 0 auto;
+}
+.img-title-excep{
+  margin-left: 38px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img-title{
+  font-size: 0.94rem;
+  font-weight: bold;
+  margin: 25px ;
+}
+.img-desc{
+  margin-left: 38px;
+  margin-bottom: 38px;
+}
+.button-1{
+  position: relative;
+}
+.button-2{
+  position: relative;
+}
+.button-3{
+  position: relative;
+}
+.button-4{
+  position: relative;
+}
+.button-5{
+  position: relative;
+}
+.date-1{
+  position: absolute;
+  left: 38px;
+  top: 270px;
+  padding: 15px 18px;
+  border-radius: 47px;
+  background-color: #3CD8E8;
+  color: white;
+  border: none;
+}
+.date-2{
+  position: absolute;
+  padding: 15px 18px;
+  border-radius: 47px;
+  left: 25px;
+  top: 115px;
+  background-color: #95B226;
+  color: white;
+  border: none;
+}
+  
+
+.date-3{
+  position: absolute;
+  padding: 15px 18px;
+  border-radius: 47px;
+  left: 25px;
+  top: 112px;
+  background-color: #5D58F0;
+  color: white;
+  border: none;
+}
+.date-4{
+  position: absolute;
+  padding: 15px 18px;
+  border-radius: 47px;
+  left: 25px;
+  top: 115px;
+  background-color: #5D58F0;
+  color: white;
+  border: none;
+  
+}
+.date-5{
+  position: absolute;
+  padding: 15px 18px;
+  border-radius: 47px;
+  left: 25px;
+  top: 115px;
+  background-color: #95B226;
+  color: white;
+  border: none;
+}
+
 /* responsive media query  */
 @media screen and (max-width : 576px) {
     header{
@@ -266,5 +403,65 @@ text-align: center;
     }
     .arrow{
       display: none;
+    }
+    /* stories responsive */
+    .stories{
+      padding: 10px;
+    }
+    .button-1{
+      display: none;
+    }
+    .img-container{
+      width: 100%;
+      margin:0 auto;
+    }
+    .grid{
+      grid-template-columns: repeat(2,1fr);
+      width: 100%;
+      
+    }
+    .card-box{
+      width: 100%;
+    }
+    .date-2{
+      position: absolute;
+      padding: 15px 18px;
+      border-radius: 47px;
+      left: 20px;
+      top: 95px;
+      background-color: #95B226;
+      color: white;
+      border: none;
+    }
+    .date-3{
+      position: absolute;
+      padding: 15px 18px;
+      border-radius: 47px;
+      left: 20px;
+      top: 95px;
+      background-color: #5D58F0;
+      color: white;
+      border: none;
+    }
+    .date-4{
+      position: absolute;
+      padding: 15px 18px;
+      border-radius: 47px;
+      left: 20px;
+      top: 95px;
+      background-color: #5D58F0;
+      color: white;
+      border: none;
+      
+    }
+    .date-5{
+      position: absolute;
+      padding: 15px 18px;
+      border-radius: 47px;
+      left: 20px;
+      top: 95px;
+      background-color: #95B226;
+      color: white;
+      border: none;
     }
 }
