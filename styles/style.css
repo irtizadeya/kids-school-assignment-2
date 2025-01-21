@@ -5,12 +5,13 @@
     font-weight: normal;
     font-style: normal;
   }
+  
+  /* shared styles */
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  /* shared styles */
   .display-flex{
     display: flex;
     
@@ -30,7 +31,15 @@
   .hide{
     visibility: hidden;
   }
-
+  .c-1{
+    color: #64C8FF;
+  }
+  .c-2{
+    color: #F0AA00;
+  }
+  .c-3{
+    color: #8700FF;
+  }
 
   /* header styles */
   header{
@@ -125,10 +134,82 @@
     width: 197px;
  }
  
+/* curriculum section styles */
 
+.curriculum{
+  max-width: 1440px;
+  background-image: url('../assets/bg.png');
+}
+.curr-title{
+  font-size: 2.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+  color: black;
+}
+.card-container{
+  gap: 25px;
+  margin-bottom: 80px;
+  
+}
+.card-item{
+max-width: 365px;
+max-height: 475px;
+border-radius: 18px;
+width: 33%;
+box-sizing: border-box;
+box-shadow: 0px 0px 28.3 0.94px rgba(0, 0, 0, 0.05);
+text-align: center;
+}
+.arrow{
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+  
+}
+.arrow-left{
+  border-radius: 50%;
+  background-color: orange;
+}
+.arrow-right{
+  border-radius: 50%;
+  background-color: orange;
+}
 
-
-
+.card-1{
+  border: 0.94px solid rgba(222, 245, 255, 1);
+  background: linear-gradient(180deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  
+}
+.card-2{
+  border: 0.94px solid rgba(255, 244, 220, 1);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  
+}
+.card-3{
+  border: 0.94px solid rgba(242, 232, 255, 1);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-img{
+  padding: 52px 115px 32px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+.card-desc{
+  font-size: 0.94rem;
+  font-size: 500;
+  margin-bottom: 33px;
+}
+.read-more{
+  font-size: 0.94rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 /* responsive media query  */
 @media screen and (max-width : 576px) {
     header{
@@ -138,6 +219,7 @@
       margin: 0 auto;
       width: 100%;
     }
+    /* navbar responsive */
     .navbar > .link-container , .nav-btn{
         display: none;
     }
@@ -148,7 +230,7 @@
         width: 100%;
     }
     
-    
+    /* banner responsive */
     .banner{
         flex-direction: column-reverse;
         width: 100%;
@@ -173,5 +255,16 @@
       }
     .hide{
       visibility: visible;
+    }
+    /* curriculum responsive */
+    .card-item{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .card-container{
+      flex-direction: column;
+    }
+    .arrow{
+      display: none;
     }
 }
