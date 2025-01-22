@@ -51,7 +51,7 @@
   /* header styles */
   header{
     margin-left: 140px;
-    margin-right: 140px;
+    margin-right: 50px;
     margin-top: 20px;
   }
 
@@ -311,8 +311,8 @@ margin: 0 auto;
 .date-1{
   position: absolute;
   left: 2.375rem;
-  top: 18.875rem; 
-  /* 16.875 */
+  top: 19.875rem; 
+  /* 18.875 */
   padding: 15px 18px;
   border-radius: 47px;
   background-color: #3CD8E8;
@@ -324,7 +324,7 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 9.1875rem;
+  top: 9rem;
   /* 7.1875 */
   background-color: #95B226;
   color: white;
