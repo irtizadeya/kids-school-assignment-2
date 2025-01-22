@@ -40,10 +40,12 @@
   .c-3{
     color: #8700FF;
   }
-  marquee{
+  .marq{
     border: 2px solid black;
     background-color: #111111;
     color: white;
+    overflow: hidden;
+    width: 90%;
   }
 
   /* header styles */
@@ -304,7 +306,8 @@ margin: 0 auto;
 .date-1{
   position: absolute;
   left: 2.375rem;
-  top: 16.875rem;
+  top: 18.875rem; 
+  /* 16.875 */
   padding: 15px 18px;
   border-radius: 47px;
   background-color: #3CD8E8;
@@ -316,7 +319,8 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 7.1875rem;
+  top: 9.1875rem;
+  /* 7.1875 */
   background-color: #95B226;
   color: white;
   border: none;
@@ -328,7 +332,8 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 7rem;
+  top: 9rem;
+  /* 7 */
   background-color: #5D58F0;
   color: white;
   border: none;
@@ -338,7 +343,8 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 7.1875rem;
+  top: 9.1875rem;
+  /* 7.1875 */
   background-color: #5D58F0;
   color: white;
   border: none;
@@ -349,7 +355,8 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 7.1875rem;
+  top: 9.1875rem;
+  /* 7.1875 */
   background-color: #95B226;
   color: white;
   border: none;
@@ -428,6 +435,9 @@ footer{
 @media screen and (max-width : 576px) {
     header{
         margin: 16px;
+    }
+    .marq{
+      width: 100%;
     }
     main{
       margin: 0 auto;
