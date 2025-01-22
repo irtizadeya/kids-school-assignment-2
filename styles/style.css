@@ -311,8 +311,7 @@ margin: 0 auto;
 .date-1{
   position: absolute;
   left: 2.375rem;
-  top: 19.875rem; 
-  /* 18.875 */
+  top: 16.875rem; 
   padding: 15px 18px;
   border-radius: 47px;
   background-color: #3CD8E8;
@@ -324,8 +323,7 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 9rem;
-  /* 7.1875 */
+  top: 7.1875rem;
   background-color: #95B226;
   color: white;
   border: none;
@@ -337,8 +335,7 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 9rem;
-  /* 7 */
+  top: 7rem;
   background-color: #5D58F0;
   color: white;
   border: none;
@@ -348,8 +345,7 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 9.1875rem;
-  /* 7.1875 */
+  top: 7.1875rem;
   background-color: #5D58F0;
   color: white;
   border: none;
@@ -360,8 +356,7 @@ margin: 0 auto;
   padding: 15px 18px;
   border-radius: 47px;
   left: 1.5625rem;
-  top: 9.1875rem;
-  /* 7.1875 */
+  top: 7.1875rem;
   background-color: #95B226;
   color: white;
   border: none;
@@ -401,7 +396,6 @@ footer{
 .kids-title{
   font-size: 2.3rem;
   font-weight: bold;
-  /* margin-bottom: 35px; */
 }
 .kids-desc{
   font-size: 1rem;
@@ -522,30 +516,32 @@ footer{
     }
     .date-2{
       position: absolute;
-      padding: 15px 18px;
+      padding: 10px;
+      /* padding: 15px 18px; */
       border-radius: 47px;
       left: 1.25rem;
-      top: 5.9375rem;
+      top: 6.25rem;
+      /*top: 5.9375rem; */
       background-color: #95B226;
       color: white;
       border: none;
     }
     .date-3{
       position: absolute;
-      padding: 15px 18px;
+      padding: 10px;
       border-radius: 47px;
       left: 1.25rem;
-      top: 5.9375rem;
+      top: 6.25rem;
       background-color: #5D58F0;
       color: white;
       border: none;
     }
     .date-4{
       position: absolute;
-      padding: 15px 18px;
+      padding: 10px;
       border-radius: 47px;
       left: 1.25rem;
-      top: 5.9375rem;
+      top: 6.5rem;
       background-color: #5D58F0;
       color: white;
       border: none;
@@ -553,10 +549,10 @@ footer{
     }
     .date-5{
       position: absolute;
-      padding: 15px 18px;
+      padding: 10px;
       border-radius: 47px;
       left: 1.25rem;
-      top: 5.9375rem;
+      top: 6.5rem;
       background-color: #95B226;
       color: white;
       border: none;
