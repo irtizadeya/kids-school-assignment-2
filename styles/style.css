@@ -560,9 +560,21 @@ footer{
     .foot-cmn{
       width: 100%;
     }
+    .kids-title{
+      font-size: 2.9rem;
+      font-weight: bold;
+    }
+    .kids-desc{
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+    
     .about-title{
-      padding-top: 10px;
-
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      padding-top: 8px;
     }
     .about-links{
       display: flex;
@@ -571,6 +583,7 @@ footer{
     }
     .social-title{
       padding-top: 10px;
+      padding-bottom: 20px;
     }
     
 
